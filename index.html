@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Join Our Community Group</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #1d1f20, #343a40);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 600px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      color: #ccc;
+    }
+
+    .join-btn {
+      padding: 12px 24px;
+      background-color: #00b894;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+
+    .join-btn:hover {
+      background-color: #019875;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 15px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+
+  <script>
+    // Script untuk deteksi tombol back
+    history.pushState(null, "", location.href);
+    window.onpopstate = function () {
+      location.replace("https://example-adsterra.com"); // Ganti dengan link Adsterra kamu
+    };
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Our Official Group!</h1>
+    <p>Join like-minded people, share your thoughts, and stay updated with the latest discussions.</p>
+    <a class="join-btn" href="https://t.me/YourGroupLink" target="_blank">Join Now</a>
+  </div>
+  <footer>Powered by Our Community © 2025</footer>
+</body>
+</html>
